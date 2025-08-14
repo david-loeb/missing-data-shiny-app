@@ -1,0 +1,38 @@
+/* Slightly bold labels of control buttons */
+.control-label {font-weight: 600;}
+
+/* Change color of active radio buttons */
+.pretty input:checked~.state.p-success label:after, .pretty.p-toggle .state.p-success label:after {
+  background-color: #94EFD7 !important;
+}
+
+/* Set max width for cards & vertical center-justify */
+.card-body {
+  /*max-width: 1000px; don't need anymore */
+  justify-content: center;
+}
+
+/* Left-align table */
+/*.gt_table {margin-left: 10px !important;}*/
+
+/* Vertical center-justify equation */
+.g-start-sm-2 {justify-content: center;}
+
+/* Increase equation font size */
+.MathJax {font-size: 16 !important;}
+
+/* Right-align equation */
+.MathJax_Display {text-align: right !important;}
+
+/* Left-align DAG */
+.grViz {text-align: left;}
+svg {width: auto !important;}
+
+/* Adjust horizontal rule spacing */
+hr {
+  margin-top: -10px;
+  margin-bottom: 15px;
+}
+
+ol {margin-bottom: 0 !important;}
+ul {margin-bottom: 0 !important;}

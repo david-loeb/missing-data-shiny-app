@@ -1,0 +1,11 @@
+﻿Missing Var,Missingness Function,Missing Type,Listwise Deletion,Mean Imp,FIML,Mult Imp,Notes
+Y,Random,MCAR,good,bad,good,good,
+Y,X,MAR,good,bad,good,good,
+Y,X + Treat,MAR,good,bad,good,good,
+Y,Y,MNAR,slight bias,bad,slight bias,slight bias,
+Y,Y + Treat,MNAR,bad,bad,bad,bad,Bias is very bad in model w/o baseline outcome but modest in model w/ baseline outcome.
+X,Random,MCAR,good,good but large SE,good,good,
+X,X,MNAR,good,good,good,good,Mean Imp has smallest standard errors.
+X,X + Treat,MNAR,good,bad,bad,bad,Bias is small for FIML & Mult Imp when baseline outcome included.
+X,Y,MAR,slight bias,bad,good,good,
+X,Y + Treat,MAR,bad,bad,good,good,Bias is very bad for LWD w/o baseline outcome but modest once baseline outcome included.
